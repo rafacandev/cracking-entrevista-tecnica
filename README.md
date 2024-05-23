@@ -2,9 +2,9 @@
 
 Vamos resolver os exercícios do livro "Cracking the Code Interview". O código está escrito em JavaScript com Node.js. Além disso, temos vídeos no YouTube com a resolução de cada exercício.
 
-# Exercicios
+# Desenvolvimento
 
-Nossos exercicios estao escritos em JavaScript com Node.js. Voce precisa da versao `v18.20.2` do Node.js. Caso voce utilize Node Version Manager voce pode instalar a versao correta com:
+Voce precisa da versao `v18.20.3` do Node.js. Caso voce utilize Node Version Manager voce pode instalar a versao correta com:
 
 ```bash
 nvm install
