@@ -8,10 +8,14 @@
     "test": "NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" jest",
     "format": "prettier . --write"
   },
-  "author": "",
+  "author": "Rafael Santos",
   "license": "MIT",
   "devDependencies": {
     "jest": "^29.7.0",
     "prettier": "3.2.5"
+  },
+  "prettier": {
+    "semi": false,
+    "printWidth": 100
   }
 }
