@@ -1,7 +1,7 @@
 /**
-* @param {string} txt - The input string to check for duplicate characters.
-* @returns {boolean} - Returns true if a duplicate character is found, otherwise false.
-*/
+ * @param {string} txt - The input string to check for duplicate characters.
+ * @returns {boolean} - Returns true if a duplicate character is found, otherwise false.
+ */
 export function isDuplicateCharacterWithSet(txt) {
   const chars = new Set()
   for (let char of txt) {
@@ -14,9 +14,9 @@ export function isDuplicateCharacterWithSet(txt) {
 }
 
 /**
-* @param {string} txt - The input string to check for duplicate characters.
-* @returns {boolean} - Returns true if a duplicate character is found, otherwise false.
-*/
+ * @param {string} txt - The input string to check for duplicate characters.
+ * @returns {boolean} - Returns true if a duplicate character is found, otherwise false.
+ */
 export function isDuplicateCharacterWithArray(txt) {
   const chars = new Array(128).fill(false)
   for (let i = 0; i < txt.length; i++) {
